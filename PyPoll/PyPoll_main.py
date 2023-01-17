@@ -56,7 +56,7 @@ with open(csvpath) as csvfile:
     print("-------------------------")   
 
 # stores the path of the output text file into the variable "output"    
-output = "Resources/election_data_analysis.txt"
+output = "analysis/election_data_analysis.txt"
 
 # opens the file as writable
 with open(output,'w') as fileoutput:
